@@ -1,0 +1,5 @@
+choco install google-chrome-x64
+choco install Firefox
+
+Install-WindowsUpdate -getUpdatesFromMS -acceptEula -SuppressReboots
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableShowFullPathInTitleBar
